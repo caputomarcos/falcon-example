@@ -31,8 +31,9 @@ setup(
         'gunicorn>=19.6.0',
         'docopt>=0.6.2',
         'jsonschema>=2.5.1',
-        'mysql-connector>=2.1.4',
-        'sqlalchemy>=1.1.4',
+        #'mysql-connector>=2.1.4',
+        'pymysql>=0.7.10',
+        'SQLAlchemy==1.1.8',
         'aumbry[yaml]>=0.2.0'
     ],
     package_data={},
